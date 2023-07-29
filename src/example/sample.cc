@@ -1,6 +1,6 @@
 #include "example/sample.h"
 
-namespace Example {
+namespace Example2 {
 
 void method1(void) {
   int a = 0;
@@ -18,4 +18,4 @@ void method2(void) {
   (void)a;
 }
 
-} // namespace Example
+} // namespace Example2
