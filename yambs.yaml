@@ -1,6 +1,11 @@
+# =====================================
+# generator=datazen
+# version=3.1.2
+# hash=276fa7610212efc76a7d76404518e51c
+# =====================================
 ---
 project:
   name: yambs-sample2
 
-  github: {owner: vkottler}
+  github: {owner: &self vkottler}
   version: {major: 0, minor: 1, patch: 2}

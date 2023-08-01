@@ -1,0 +1,8 @@
+---
+name: yambs-sample2
+description: For testing nested dependencies.
+
+version:
+  major: 0
+  minor: 1
+  patch: 2
