@@ -1,18 +1,22 @@
 # =====================================
 # generator=datazen
 # version=3.1.3
-# hash=30f183a9bea33d64ea5b3bae3e6f8616
+# hash=7449d30592fafff49087f11e9e528bfc
 # =====================================
 ---
 project:
   name: yambs-sample2
 
   github: {owner: &self vkottler}
-  version: {major: 0, minor: 1, patch: 3}
-
+  version: {major: 0, minor: 1, patch: 4}
 variants:
   clang:
     suffix: &clang_version "-15"
+
+  debug:
+    suffix: "-12"
+  opt:
+    suffix: "-12"
 
   clang-opt:
     suffix: *clang_version
